@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: demo-service-stb
+
+logging:
+  level:
+    root: INFO
+    com.example: DEBUG
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
+
+management:
+  endpoint:
+    health:
+      show-details: always
